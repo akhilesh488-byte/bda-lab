@@ -8,21 +8,20 @@ All `gedit` GUI commands have been converted into clean `cat << 'EOF' > <filenam
 
 ## 🚀 Quick Install on Ubuntu / Linux
 
-Replace `<USERNAME>` and `<REPO>` with your GitHub repository details (e.g., `your-github-username/bda-lab`):
 
 ### Option 1: Install directly via Git
 ```bash
-pip install git+https://github.com/<USERNAME>/bda-lab.git
+pip install git+https://github.com/akhilesh488-byte/bda-lab.git
 ```
 
 ### Option 2: Install via Zip Archive (no Git required)
 ```bash
-pip install https://github.com/<USERNAME>/bda-lab/archive/refs/heads/main.zip
+pip install https://github.com/akhilesh488-byte/bda-lab/archive/refs/heads/main.zip
 ```
 
 ### Option 3: Local Clone / Install
 ```bash
-git clone https://github.com/<USERNAME>/bda-lab.git
+git clone https://github.com/akhilesh488-byte/bda-lab.git
 cd bda-lab
 pip install .
 ```
